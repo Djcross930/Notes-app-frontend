@@ -1,18 +1,17 @@
 
 <script>
-import NoteSelector from './NoteSelector.vue';
+import NoteSelectors from './NoteSelectors.vue';
 import NoteEditor from './NoteEditor.vue'
 export default {
   components: {
-    NoteSelector,
-    NoteSelector,
+    NoteSelectors,
     NoteEditor
   }
 }
 </script>
 <template>
   <div class="note-container">
-    <NoteSelector />
+    <NoteSelectors />
     <NoteEditor />
   </div>
 </template>
